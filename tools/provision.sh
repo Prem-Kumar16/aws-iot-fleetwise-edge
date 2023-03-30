@@ -4,14 +4,14 @@
 
 set -eo pipefail
 
-ENDPOINT_URL=""
+ENDPOINT_URL="awvvdv9pe6z46-ats.iot.eu-central-1.amazonaws.com"
 ENDPOINT_URL_OPTION=""
-REGION="us-east-1"
+REGION="eu-central-1"
 TIMESTAMP=`date +%s`
-DEFAULT_VEHICLE_NAME="fwdemo"
-VEHICLE_NAME=""
-CERT_OUT_FILE="certificate.pem"
-PRIVATE_KEY_OUT_FILE="private-key.key"
+DEFAULT_VEHICLE_NAME=""
+VEHICLE_NAME="FleetWiseWorkshopVehicle01"
+CERT_OUT_FILE="/etc/aws-iot-fleetwise/certificate.pem"
+PRIVATE_KEY_OUT_FILE="/etc/aws-iot-fleetwise/private-key.key"
 ENDPOINT_URL_OUT_FILE=""
 VEHICLE_NAME_OUT_FILE=""
 ONLY_CLEAN_UP=false
